@@ -1,8 +1,24 @@
 aid: mind-candy-moshi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mind-candy-moshi.png
 name: Mind Candy, Moshi
-description: 'Mind Candy, Moshi is a company surfaced as a portfolio company of accel and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Mind Candy Ltd is a London-based children''s media and technology company,
+  originally known for the Moshi Monsters online game and now operating Moshi, an award-winning
+  children''s app for sleep, relaxation and learning. Moshi offers hundreds of hours of
+  bedtime stories, sleep sounds, music, white noise and educational activities delivered
+  through iOS and Android consumer apps. The company was surfaced as a portfolio company
+  of Accel and added to the API Evangelist network. Moshi is a direct-to-consumer subscription
+  product and does not currently publish a public developer API, SDK, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/mind-candy-moshi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Children
+- Education
+- Sleep
+- Mobile Apps
+- Subscription
+- Media
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mind-candy-moshi-domain-security.yml
 - type: Website
   url: https://www.moshikids.com/
+- type: SignUp
+  url: https://app.moshikids.com/sign-up
+- type: Login
+  url: https://app.moshikids.com/login
+- type: TermsOfService
+  url: https://www.moshikids.com/terms-conditions/
+- type: PrivacyPolicy
+  url: https://www.moshikids.com/privacy-policy/
+- type: Support
+  url: https://www.moshikids.com/contact/
+- type: HelpCenter
+  url: https://www.moshikids.com/knowledge-base/
+- type: Blog
+  url: https://www.moshikids.com/articles-groups/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
